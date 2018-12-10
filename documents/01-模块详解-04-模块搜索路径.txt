@@ -1,0 +1,9 @@
+模块搜索路径规则
+
+1. 首先会在当前目录的node_modules子目录中搜索模块文件
+2. 如果当前目录没有node_modules子目录，或node_modules子目录中没有模块文件，继续在父目录中按同样的方式搜索
+3. 如果还没找到，继续向上一级目录搜索，直到搜索到操作系统的根目录
+
+如果是linux、Mac OS X   一直会搜索到/node_modules
+如果是windows，一直到d:\node_modules
+

@@ -1,0 +1,15 @@
+Node.js的模块机制
+
+Node.js使用JavaScript来开发程序
+
+CommonJS规范
+
+1. 引用模块
+
+var value = require('workman').getName
+
+
+2. 导出模块中的资源
+
+在模块内部通过exports对象导出成员
+
