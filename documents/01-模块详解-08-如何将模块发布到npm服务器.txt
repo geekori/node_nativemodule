@@ -1,0 +1,13 @@
+如何将模块发布到npm服务器
+
+1. 在https://www.npmjs.com上注册账号
+2. 开发自己的模块
+3. npm login
+4. npm publish
+5. 使用npm install --save geekori_jc安装模块
+6. 用require('geekori_jc')引用模块中的成员
+
+7. 当模块升级时，需要修改package.json文件中的版本号，然后重新使用npm publish命令发布
+
+8. 当更新模块时，使用npm update命令，会更新根目录中package.json文件指定的所有模块
+

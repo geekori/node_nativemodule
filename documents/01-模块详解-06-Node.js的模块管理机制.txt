@@ -1,0 +1,27 @@
+Node.js的模块管理机制
+
+npm
+
+全局安装  -g
+
+
+本地安装  --save
+
+sqlite
+
+全局安装
+npm install -g sqlite
+
+本地安装
+
+npm install --save sqlite
+
+阿里Node.js团队
+cnpm
+
+使用了缓存，第一次安装某个模块，会将该模块缓存到本地，当再次安装该模块，会直接使用本地缓存的模块
+
+npm install -g cnpm --registry = https://registry.npm.taobao.org
+
+npm uninstall sqlite
+cnpm uninstall sqlite

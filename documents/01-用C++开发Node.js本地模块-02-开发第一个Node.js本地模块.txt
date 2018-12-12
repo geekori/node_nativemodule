@@ -1,0 +1,11 @@
+开发第一个Node.js本地模块
+
+开发步骤
+
+1. 编写至少一个C++文件
+2. binding.gyp
+
+3. package.json
+
+
+first1.js >  first.node

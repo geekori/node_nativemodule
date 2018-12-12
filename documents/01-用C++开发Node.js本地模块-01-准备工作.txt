@@ -1,0 +1,45 @@
+准备工作
+
+本地模块：
+
+本地模块具备所有Node.js模块的特性
+
+本地：需要以二进制文件形式发布，扩展名要求是.node     jc.node
+
+var jc = require('jc.node').jc
+
+IDE
+
+Windows：Visual Studio（社区版本是免费的）、Visual Studio Code
+Mac OS X：XCode
+Linux：Visual Studio Code
+
+C++编译器
+Windows：Visual Studio，GCC（tdm-gcc-5.1.0-3）
+Mac OS X：Clang，GCC
+Linux：GCC
+
+本地模块编译器
+
+node-gyp：用于将C++代码编译成Node.js的本地模块，最终生成.node文件
+
+基于gyp进行工作的（Generate Your Projects） Makefile,visual studio项目文件。
+
+*.gyp文件
+
+binding.gyp文件
+
+node-gyp使用了Python语言编写
+
+JavaScript、C++和Python
+
+Python环境强烈建议安装Anaconda，优点如下：
+
+1. 集成了很多第三方库
+2. 可以非常容易地在Python3.x和Python2.x之间切换
+
+node-gyp使用了python2.7开发
+
+npm install -g node-gyp
+
+node-gyp -h
