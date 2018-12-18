@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>hello world</title>
+      <script >
+
+        function onClick() {
+            var getValue = require('./first').getValue;
+            alert(getValue())
+        }
+      </script>
+  </head>
+  <body>
+      <h1>调用本地模块中的API</h1>
+  <button onclick="onClick()">点我</button>
+  </body>
+</html>
