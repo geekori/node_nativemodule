@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>hello world</title>
+      <script >
+
+          function onClick() {
+              const calc = require('./Calc_Electron')
+              console.log(calc.add(64,23.5))
+              console.log(calc.sub(64,23.5))
+              console.log(calc.mul(64,23.5))
+              console.log(calc.div(64,23.5))
+          }
+
+      </script>
+  </head>
+  <body>
+      <h1>计算器</h1>
+  <button onclick="onClick()">计算</button>
+  </body>
+</html>
