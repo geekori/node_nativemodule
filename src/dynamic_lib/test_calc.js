@@ -1,0 +1,5 @@
+var Calc = require('./Calc')
+console.log(Calc.add(5,34))
+console.log(Calc.sub(5,34))
+console.log(Calc.mul(5,34))
+console.log(Calc.div(5,34))
